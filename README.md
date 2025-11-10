@@ -7,7 +7,7 @@ A privacy-focused local RAG chatbot powered by Ollama LLM and ChromaDB vector st
 - **Offline Capability**: Works without internet connectivity once models are downloaded 
 - **Customizable LLM**: Leverages Ollama for flexible model selection and local inference
 - **Efficient Vector Search**: Uses ChromaDB for fast semantic similarity search and document retrieval 
-- **Document Ingestion**: Process and embed PDFs, text files, and other document formats
+- **Document Ingestion**: Process and embed CSV files
 - **Context-Aware Responses**: Retrieves relevant document chunks to provide accurate, grounded answers 
 
 ## Tech Stack
@@ -32,3 +32,4 @@ The chatbot implements a standard RAG pipeline
 - Python 3.8+
 - Ollama installed locally
 - 8GB+ RAM recommended
+
